@@ -1,0 +1,22 @@
+{
+  "name": "页面性能分析",
+  "version": "1.0",
+  "manifest_version":2,
+  "description": "用于页面性能分析",
+  "background" : {
+    "scripts" : [
+        "background.js" 
+    ]
+  },
+  "author":"zhang sai nan",
+  "devtools_page" : "devtools.html",
+  "permissions" : [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons" : {
+    "16" : "img/icon_16.png",
+    "48" : "img/icon_48.png",
+    "128" : "img/icon_128.png"
+  }
+}
